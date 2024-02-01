@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans:ital,wght@0,300;1,300&family=Roboto:wght@300;400&display=swap"
+      rel="stylesheet">
+   <link rel="shortcut icon" href="img/dns.png" type="image/png">
+   <link rel="stylesheet" href="style.css">
+   <title>DNS</title>
+</head>
+
+<body>
+   <div class="container">
+      <div class="header">
+         <div class="headerLogo">
+            <a href="index.html">
+               <img src="img/dns.png" alt="логотип" class="logo">
+            </a>
+         </div>
+         <div class="title">
+            <h2>Цифровая и бытовая техника</h2>
+         </div>
+         <div class="registration">
+            <table class="redistration-form" cellpadding="5" cellspacing="0">
+               <tbody>
+                  <tr>
+                     <td class="login">
+                        <input class="logPlace" type="text" value="логин" size="16">
+                     </td>
+                  </tr>
+                  <tr>
+                     <td class="login">
+                        <input class="logPlace" type="password" value="password" size="16">
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <input class="buttonReg" type="submit" value="войти" id="submit">
+                        <a href="reg.html" target="page">регистрация</a>
+                     </td>
+                  </tr>
+               </tbody>
+            </table>
+         </div>
+      </div>
+      <nav class="nav">
+         <div class="navbar">
+            <a class="navBar" href="page1.html" target="page">Доставка</a>
+            <a class="navBar" href="page2.html" target="page">Актуальные предложения</a>
+            <a class="navBar" href="page3.html" target="page">О компании</a>
+            <a class="navBar" href="page4.html" target="page">Политика конфиденциальности</a>
+            <a class="navBar" href="own.html" target="page">Личный кабинет</a>
+         </div>
+      </nav>
+      <div class="leftPart">
+         <a href="page1.html" target="page">Доставка</a>
+         <a href="page2.html" target="page">Актуальные предложения</a>
+         <a href="page3.html" target="page">О компании</a>
+         <a href="page4.html" target="page">Политика конфиденциальности</a>
+         <a href="own.html" target="page">Личный кабинет</a>
+         <a href="feedback.html" target="page">Обратная связь</a>
+
+
+      </div>
+      <div class="centerPart">
+         <iframe class="centerFrame" name="page" src="main.html" width="600px" height="2000px" frameborder="0">
+         </iframe>
+      </div>
+      <div class="rightPart">
+         <div class="find">
+            <span><strong>ПОИСК</strong></span>
+         </div>
+         <form align="center">
+            <input type="text"><br>
+            <input type="button" value="искать">
+         </form>
+         <div class="rightimg">
+            <a href="akt_mini1.html" target="page"><img src="img/popsam2.jpg" width="110px"></a>
+            <a href="akt_mini2.html" target="page"><img src="img/apple1.jpg" width="110px"></a>
+            <a href="akt_mini3.html" target="page"><img src="img/huawei11.png" width="110px"></a>
+         </div>
+
+      </div>
+      <div class="footer">
+         <hr>
+         <h4>
+            &copy; Все права защищены
+         </h4>
+      </div>
+
+
+
+
+   </div>
+
+
+
+</body>
+
+<script>
+   document.querySelector("#submit").onclick = function () {
+      alert("Функция входа не реализована");
+   }
+</script>
+
+</html>
